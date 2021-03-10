@@ -1,0 +1,3 @@
+[submodule "blog-one/themes/pure"]
+	path = blog-one/themes/pure
+	url = git@github.com:xiaoheiAh/hugo-theme-pure.git
