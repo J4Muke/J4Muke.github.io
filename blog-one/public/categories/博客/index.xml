@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客 on NEURAL</title>
+    <link>/categories/%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 博客 on NEURAL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>CC BY 4.0 CN</copyright>
+    <lastBuildDate>Wed, 10 Mar 2021 15:46:30 +0800</lastBuildDate>
+    
+        <atom:link href="/categories/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>/2021/03/my-first-post/</link>
+      <pubDate>Wed, 10 Mar 2021 15:46:30 +0800</pubDate>
+      
+      <guid>/2021/03/my-first-post/</guid>
+      <description>你好，世界。</description>
+    </item>
+    
+  </channel>
+</rss>

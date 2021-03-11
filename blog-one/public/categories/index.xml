@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>hugo-blog-2gz3zcq74a676d50-1259555655.tcloudbaseapp.com/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on J4Muke StudiO</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on J4Muke StudiO</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <copyright>CC BY 4.0 CN</copyright>
+    <lastBuildDate>Wed, 10 Mar 2021 15:46:30 +0800</lastBuildDate>
     
-        <atom:link href="hugo-blog-2gz3zcq74a676d50-1259555655.tcloudbaseapp.com/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>hugo-blog-2gz3zcq74a676d50-1259555655.tcloudbaseapp.com/posts/my-first-post/</link>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 11 Mar 2021 14:43:08 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>我是谁？ 尘世里一个迷途小学生。 从事产品经理的岗位。</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>/2021/03/my-first-post/</link>
       <pubDate>Wed, 10 Mar 2021 15:46:30 +0800</pubDate>
       
-      <guid>hugo-blog-2gz3zcq74a676d50-1259555655.tcloudbaseapp.com/posts/my-first-post/</guid>
-      <description>测试自动部署功能</description>
+      <guid>/2021/03/my-first-post/</guid>
+      <description>你好，世界。 先占个位置。</description>
     </item>
     
   </channel>
