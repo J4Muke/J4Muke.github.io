@@ -1,0 +1,21 @@
+{{- if .Site.Params.enablePostCopyright }}
+
+{{ $profile := .Site.Params.profile }}
+{{- with $profile.enabled }}
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="{{- $profile.follow }}" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="{{- $profile.avatar | absURL }}" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="{{- $profile.follow }}" target="_blank"><span class="text-dark">{{- $profile.author }}</span><small class="ml-1x">{{- $profile.author_title }}</small></a></h3>
+        <div>{{- $profile.author_description }}</div>
+      </div>
+    </figure>
+  </div>
+</div>
+{{- end }}
+{{- end }}
