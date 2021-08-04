@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <title>
+        关于信息茧房与推荐算法 - J4Muke StudiO
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="今天在刷即刻时，取关了一位博主，原因是我感到与他价值观有所不同，或者说他对某件事的看法与我相去甚远，于是我点进他的个人主页，点击了取消关注。" />
+    <meta name="generator" content="Hugo 0.58.2 with theme pure" />
+    <title>关于信息茧房与推荐算法 - J4Muke StudiO</title>
+    
+    
+    <link rel="stylesheet" href="/css/style.min.15eed95b4f581ec72a43c3e2ca43ecc4082edf6e55b39e30f1219193148505a2.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="关于信息茧房与推荐算法" />
+<meta property="og:description" content="今天在刷即刻时，取关了一位博主，原因是我感到与他价值观有所不同，或者说他对某件事的看法与我相去甚远，于是我点进他的个人主页，点击了取消关注。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2021/03/information-cocoons/" />
+<meta property="article:published_time" content="2021-03-11T17:23:03+08:00" />
+<meta property="article:modified_time" content="2021-03-11T17:23:03+08:00" />
+<meta itemprop="name" content="关于信息茧房与推荐算法">
+<meta itemprop="description" content="今天在刷即刻时，取关了一位博主，原因是我感到与他价值观有所不同，或者说他对某件事的看法与我相去甚远，于是我点进他的个人主页，点击了取消关注。">
+
+
+<meta itemprop="datePublished" content="2021-03-11T17:23:03&#43;08:00" />
+<meta itemprop="dateModified" content="2021-03-11T17:23:03&#43;08:00" />
+<meta itemprop="wordCount" content="2130">
+
+
+
+<meta itemprop="keywords" content="产品,个性化推荐,算法," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="关于信息茧房与推荐算法"/>
+<meta name="twitter:description" content="今天在刷即刻时，取关了一位博主，原因是我感到与他价值观有所不同，或者说他对某件事的看法与我相去甚远，于是我点进他的个人主页，点击了取消关注。"/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://weibo.com/u/3486501484" target="_blank">
+            <img class="img-circle img-rotate" src="/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">J4Muke</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">产品经理</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Shanghai, China</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="搜索" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="想要查找什么..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">公告</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>有些想说的话，无处可说。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> 标签</h3>
+    <div id="tag-cloud-list" class="widget-body">
+            
+            
+            <a href="/tags/dc%E6%BC%AB%E7%94%BB/" class="tag-list-link" rel="1">dc漫画<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A8%E8%8D%90/" class="tag-list-link" rel="1">个性化推荐<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E4%BA%A7%E5%93%81/" class="tag-list-link" rel="2">产品<span
+               class="tag-list-count">2</span></a>
+            
+            
+            <a href="/tags/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3/" class="tag-list-link" rel="1">产品文档<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%83%B3%E6%B3%95/" class="tag-list-link" rel="1">想法<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%89%8E%E5%85%8B-%E6%96%BD%E8%80%90%E5%BE%B7/" class="tag-list-link" rel="1">扎克-施耐德<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/" class="tag-list-link" rel="1">数据统计<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F/" class="tag-list-link" rel="1">正义联盟<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%94%B5%E5%BD%B1/" class="tag-list-link" rel="1">电影<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%AE%97%E6%B3%95/" class="tag-list-link" rel="1">算法<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E8%B6%B3%E7%90%83/" class="tag-list-link" rel="1">足球<span
+               class="tag-list-count">1</span></a>
+            
+    </div>
+<script>
+document.onreadystatechange = () => {
+  if (document.readyState === 'complete') {
+    tagCloud('#tag-cloud-list a',  8 ,  20 );
+  }
+};
+
+function tagCloud(where, min, max) {
+  let iMax = 0;
+  let iMin = 0;
+  $(where).each(function() {
+    let weight = Number($(this).attr("rel"));
+    if(iMax < weight) iMax = weight;
+    if(iMin > weight || iMin == 0) iMin = weight;
+  });
+  let step = (max - min)/(iMax - iMin);
+  $(where).each(function() {
+    let weight = $(this).attr("rel") - iMin;
+    $(this).css({"font-size": min + (weight * step) + 'px'});
+  });
+};
+</script>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> 分类</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/" class="category-list-link">一些想法</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="/categories/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95/" class="category-list-link">产品方法</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/" class="category-list-link">产品设计</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/" class="category-list-link">数据统计</a><span class="category-list-count">1</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> 标签</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="/tags/dc%E6%BC%AB%E7%94%BB/" class="tag-list-link">dc漫画</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A8%E8%8D%90/" class="tag-list-link">个性化推荐</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%BA%A7%E5%93%81/" class="tag-list-link">产品</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3/" class="tag-list-link">产品文档</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%83%B3%E6%B3%95/" class="tag-list-link">想法</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%89%8E%E5%85%8B-%E6%96%BD%E8%80%90%E5%BE%B7/" class="tag-list-link">扎克-施耐德</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/" class="tag-list-link">数据统计</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F/" class="tag-list-link">正义联盟</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%94%B5%E5%BD%B1/" class="tag-list-link">电影</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%AE%97%E6%B3%95/" class="tag-list-link">算法</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E8%B6%B3%E7%90%83/" class="tag-list-link">足球</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/03/foreign_prd/" class="title">海外公司的产品文档是怎么写的？</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-24 15:26:46 &#43;0800 CST" itemprop="datePublished">2021-03-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/03/justice_league/" class="title">导剪版《正义联盟》，我很喜欢</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-22 14:17:10 &#43;0800 CST" itemprop="datePublished">2021-03-22</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/03/wrong-statics/" class="title">一个经典的数据统计问题</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-16 11:36:13 &#43;0800 CST" itemprop="datePublished">2021-03-16</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/03/information-cocoons/" class="title">关于信息茧房与推荐算法</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-11 17:23:03 &#43;0800 CST" itemprop="datePublished">2021-03-11</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/03/my-first-post/" class="title">Hello World</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-10 15:46:30 &#43;0800 CST" itemprop="datePublished">2021-03-10</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">文章目录</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2021/03/information-cocoons/"
+    >关于信息茧房与推荐算法</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="/2021/03/information-cocoons/" class="article-date">
+  <time datetime="2021-03-11 17:23:03 &#43;0800 CST" itemprop="datePublished">2021-03-11</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/"> 产品设计 </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/%E4%BA%A7%E5%93%81/"> 产品 </a>
+    <a class="article-tag-link" href="/tags/%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A8%E8%8D%90/"> 个性化推荐 </a>
+    <a class="article-tag-link" href="/tags/%E7%AE%97%E6%B3%95/"> 算法 </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2021/03/information-cocoons/#comments"
+            class="article-comment-link">评论</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 2130字</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 5分 </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      
+
+<p>今天在刷即刻时，取关了一位博主，原因是我感到与他<strong>价值观</strong>有所不同，或者说他对某件事的看法与我相去甚远，于是我点进他的个人主页，点击了取消关注。</p>
+
+<p>事后回想这一行为，我突然意识到，也许我是在给自己制造「茧房」。</p>
+
+<p>在我点击取消关注按钮前，有那么片刻犹豫，毕竟我曾经关注他，是期望从他这里获取有趣或有价值的信息，取关意味着我将失去一个信息源。再深入一些，我是在维护一个符合我“价值观”或“口味”的关注列表，长此以往，我将无法得知与我对立或有所区别的价值观信息，这不就是一种「价值观茧房」吗？</p>
+
+<p>最近这几年，随着个性化推荐算法大行其道，人们常常批评算法会让用户陷入「信息茧房」，百度创始人李彦宏就说过：</p>
+
+<blockquote>
+<p>现在的算法试图取悦用户，算法的好坏基本上是按照这个用户花了多长时间来消费内容、他第二天再回来的概率有多大，都是在优化这些东西。&hellip;这样不好，会把人搞得非常分裂，会容易让人去走极端。</p>
+</blockquote>
+
+<p>当时我也曾对此番言论叫好，毕竟算法让人陷入信息茧房似乎已是公认结论。</p>
+
+<p>但今天的思考让我意识到，我们也许错怪了算法。「茧房」是自己创造的，而不是算法。</p>
+
+<h2 id="什么是信息茧房">什么是信息茧房</h2>
+
+<blockquote>
+<p>「信息茧房」的概念来自哈佛大学法学院教授、奥巴马总统的法律顾问凯斯·桑斯坦在其2006年出版的著作《信息乌托邦——众人如何生产知识》。通过对互联网的考察，桑斯坦指出，在信息传播中，因公众自身的信息需求并非全方位的，公众只注意自己选择的东西和使自己愉悦的通讯领域，久而久之，会将自身桎梏于像蚕茧一般的“茧房”中。</p>
+
+<p>早在1995年，比尔·盖茨就曾预言：在未来世界，量身定制的信息将自然增加，每个人都可以编排一份完全符合自己兴趣的“日报”。而在次年出版的《数字化生存》一书中，学者尼葛洛庞帝也预言了个性化定制的“我的日报”（The Daily Me）即将出现。</p>
+
+<p>桑斯坦非常认同“我的日报”，并在此基础上进一步提出“信息茧房”的概念。他指出，在互联网时代，伴随网络技术的发达以及信息量的剧增，每个人都能随意选择关注的话题，并可以根据自己的喜好打造一份个人日报，但这种信息选择行为将会导致“信息茧房”的形成。</p>
+</blockquote>
+
+<p><a href="https://wiki.mbalib.com/wiki/%E4%BF%A1%E6%81%AF%E8%8C%A7%E6%88%BF">MBA智库百科：信息茧房</a></p>
+
+<h2 id="算法与主动选择">算法与主动选择</h2>
+
+<p>从上面的定义诞生时间就能看出，信息茧房的出现早于个性化算法的大规模运用，两者之间并不是因果关系。</p>
+
+<p>从我的例子也可以看出，即使没有个性化分发算法，人在主观上也会主动去选择与自身价值观相符的信息源。算法只是利用技术手段帮助你更高效率地、更便捷地去完成了信息的筛选，减少了用户的操作步骤，通过你的行为和标签帮助你完成了这一切。</p>
+
+<p>那么算法剥夺了用户的选择权吗？</p>
+
+<p>有的人可能会提出异议：在算法面前我只有被动接受，而关注留下了我抗拒本能的可能性。</p>
+
+<p>其实也并非如此。</p>
+
+<p>以抖音为例，如果连续给用户推某一类视频，那么用户很快就厌烦，使用App的时长就会下降。因此，抖音会在推荐内容当中加入一部分其他内容来帮助你发现更多感兴趣的视频。此时，你针对视频的观看时长和互动行为就是在做出选择。</p>
+
+<p>此外，算法更多基于事实，而不是价值观来推荐</p>
+
+<p>算法当中的召回策略，更多是针对一些客观上的标签来推荐。例如，你喜欢特斯拉，那么算法就会推给你更多特斯拉相关的视频，但是算法很难判断你是喜欢「推崇特斯拉」还是喜欢「黑特斯拉」（只是大体上，实际上推荐召回策略并不是一定只能做到客观）。相反，在一个仅有关注系统的世界里，你如果是一位特斯拉的拥趸，那么很可能取关那些「黑特斯拉」的内容作者，反而更容易错过对特斯拉不利的消息，从而让你对特斯拉的看法更加极端。</p>
+
+<h2 id="真正的茧房">真正的茧房</h2>
+
+<p>除了以上几点外，人类获取信息并不依赖某一个独立的信息源。每时每刻，我们都在通过各种方式主动、被动地获取信息。很难说，一些常用App的推荐算法就能把我们桎梏在某一类内容当中。</p>
+
+<p>真正对我们不利的不是算法，而是大脑当中的「价值观茧房」。</p>
+
+<p>人类有抱团，寻求认同的天性。大脑当中的「价值观茧房」就像一层过滤器，即使我们看到了许多不符合本人「价值观」的事情，听到了许多与已有认知不同的声音，也可能因为这层过滤器而无视了它们。</p>
+
+<p>当评价一件事物时，我们常常「选择性遗忘」不利于自己价值观的信息。是因为我们未曾接触那些信息吗？不是，而是大脑的价值观茧房起了作用。</p>
+
+<h2 id="打破茧房">打破茧房</h2>
+
+<p>该怎么样走出「价值观茧房」呢？</p>
+
+<p>也许你就是不喜欢某人对某件事的相反观点，看着也闹心。甚至，在当今这个自媒体爆发的年代，你很难区分他的观点是对是错。一味的全盘接纳自然也不是可取之道。</p>
+
+<p>答案就是只关注事实，抛弃观点。</p>
+
+<p>事实就是客观发生的事。<strong>你可以无视与你相反的观点，但不应该无视事实。</strong>这个世界上发生的每件事一定是由持有某种价值观的行为所带来的。价值观会在事情发生的拐点推动人的行为。</p>
+
+<p><strong>事实自然会告诉你：这个世界并不总如你所愿地运作。</strong></p>
+
+<p>也许你对「特斯拉」无比推崇，不想听到那些批评特斯拉的声音，但是当你看到客观发生的事实时，你就会明白马斯克他是一个某样的人，才导致了某样的特斯拉诞生。</p>
+
+<p>此外，也需要更多阅读、学习那些经典。因为经典之所以经典，是因为它揭示了人性，让你认识到这个世界的多姿多彩、千奇百怪。经典能够带给你启迪，当你了解到足够多的事实和多样的人性，你接纳事实的阈值会不断下降。</p>
+
+<p>相反，那些快餐一样的读物，其中的故事、人性大多来自臆想，并没有什么参考价值，不读也罢。</p>
+
+    </div>
+    <div class="article-footer">
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://weibo.com/u/3486501484" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://weibo.com/u/3486501484" target="_blank"><span class="text-dark">J4Muke</span><small class="ml-1x">产品经理</small></a></h3>
+        <div>Being Productive. Being Useful.</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+    <div id="vcomments"></div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/about/" title="About"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;下一篇</span></a>
+            </li>
+            <li class="next">
+                <a href="/2021/03/wrong-statics/"
+                    title="一个经典的数据统计问题"><span>上一篇&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="文章目录" role="button">
+                    <span>[&nbsp;</span><span>文章目录</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone,wechat"></div>
+        </div>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://weibo.com/u/3486501484" target="_blank" title="weibo" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-weibo"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2021  -
+    2021
+    <div class="publishby">
+        Being Productive. Being Useful.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(未命名)',
+            },
+            ROOT_URL: '\/',
+            CONTENT_URL: '\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine"></script>
+<script type="text/javascript">
+    var GUEST = ['nick', 'mail', 'link'];
+    var meta = 'nick,mail';
+    meta = meta.split(',').filter(function (item) {
+        return GUEST.indexOf(item) > -1;
+    });
+    new Valine({
+        el: '#vcomments',
+        verify: null ,
+        notify: null ,
+        appId: '2cGSWev1Oh89OFSgJVSBn5PH-gzGzoHsz',
+        appKey: 'tJ7wkRjmOgJJIjYh6dEqXoJ0',
+        placeholder: '你想对我说点什么呢？',
+        avatar: 'mm',
+        meta: meta,
+        pageSize: '10' || 10,
+        visitor: false 
+});
+</script>
+
+  </body>
+</html>

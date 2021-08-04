@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个性化推荐 on J4Muke StudiO</title>
+    <link>/tags/%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A8%E8%8D%90/</link>
+    <description>Recent content in 个性化推荐 on J4Muke StudiO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>CC BY 4.0 CN</copyright>
+    <lastBuildDate>Thu, 11 Mar 2021 17:23:03 +0800</lastBuildDate>
+    
+        <atom:link href="/tags/%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>海外公司的产品文档是怎么写的？</title>
+      <link>/2021/03/foreign_prd/</link>
+      <pubDate>Wed, 24 Mar 2021 15:26:46 +0800</pubDate>
+      
+      <guid>/2021/03/foreign_prd/</guid>
+      <description>在一个海外的产品经理入门科普文章当中，见到了对方推荐的产品文档模版，心生好奇。细读一番，发现整体结构与国内的产品文档并无太大差异，核心模块，</description>
+    </item>
+    
+    <item>
+      <title>导剪版《正义联盟》，我很喜欢</title>
+      <link>/2021/03/justice_league/</link>
+      <pubDate>Mon, 22 Mar 2021 14:17:10 +0800</pubDate>
+      
+      <guid>/2021/03/justice_league/</guid>
+      <description>特地抽出周末一整块的时间看完了长达4小时的扎克-施耐德版《正义联盟》。 不得不说，我对扎导的评价有了很大改观，并且开始幻想华纳能够给予支持，让</description>
+    </item>
+    
+    <item>
+      <title>一个经典的数据统计问题</title>
+      <link>/2021/03/wrong-statics/</link>
+      <pubDate>Tue, 16 Mar 2021 11:36:13 +0800</pubDate>
+      
+      <guid>/2021/03/wrong-statics/</guid>
+      <description>最近，在看足球社区的一个讨论时，看到一个有些让人意外的数字，稍微分析后，立刻意识到这是一个经典的统计问题。 数据统计有太多可被动手脚的地方，尤</description>
+    </item>
+    
+    <item>
+      <title>关于信息茧房与推荐算法</title>
+      <link>/2021/03/information-cocoons/</link>
+      <pubDate>Thu, 11 Mar 2021 17:23:03 +0800</pubDate>
+      
+      <guid>/2021/03/information-cocoons/</guid>
+      <description>今天在刷即刻时，取关了一位博主，原因是我感到与他价值观有所不同，或者说他对某件事的看法与我相去甚远，于是我点进他的个人主页，点击了取消关注。</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 11 Mar 2021 14:43:08 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>我是谁？ 一位内容与社区领域的产品经理，期望有一天能做出真正属于自己的产品。 懂一点点技术，曾写过iOS的Switch折扣信息App，因iOS 系</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>/2021/03/my-first-post/</link>
+      <pubDate>Wed, 10 Mar 2021 15:46:30 +0800</pubDate>
+      
+      <guid>/2021/03/my-first-post/</guid>
+      <description>你好，世界。 不知道是不是每个人都无法抗拒文字的魅力，且都自认为自己有写东西的能力及持续不断的激情。 至少现在的我是这样，于是我搭建了这个博客。</description>
+    </item>
+    
+  </channel>
+</rss>
