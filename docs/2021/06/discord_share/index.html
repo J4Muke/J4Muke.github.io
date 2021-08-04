@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <title>
+        Discord的产品功能 - J4Muke StudiO
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="今天来写点Discord的产品细节。 之前一直是从比较大的角度去谈Discord，多少有些夸夸其谈 Discord的产品层级超乎想象的多，从上到" />
+    <meta name="generator" content="Hugo 0.87.0 with theme pure" />
+    <title>Discord的产品功能 - J4Muke StudiO</title>
+    
+    
+    <link rel="stylesheet" href="/css/style.min.084a5eb24fb0cf9d5aade7246f19ba0c820cf904996a28ffe88039427693ac68.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="Discord的产品功能" />
+<meta property="og:description" content="今天来写点Discord的产品细节。 之前一直是从比较大的角度去谈Discord，多少有些夸夸其谈 Discord的产品层级超乎想象的多，从上到" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2021/06/discord_share/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-06-12T20:56:42+08:00" />
+<meta property="article:modified_time" content="2021-06-12T20:56:42+08:00" />
+
+<meta itemprop="name" content="Discord的产品功能">
+<meta itemprop="description" content="今天来写点Discord的产品细节。 之前一直是从比较大的角度去谈Discord，多少有些夸夸其谈 Discord的产品层级超乎想象的多，从上到"><meta itemprop="datePublished" content="2021-06-12T20:56:42+08:00" />
+<meta itemprop="dateModified" content="2021-06-12T20:56:42+08:00" />
+<meta itemprop="wordCount" content="2058">
+<meta itemprop="keywords" content="DISCORD,产品," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Discord的产品功能"/>
+<meta name="twitter:description" content="今天来写点Discord的产品细节。 之前一直是从比较大的角度去谈Discord，多少有些夸夸其谈 Discord的产品层级超乎想象的多，从上到"/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://weibo.com/u/3486501484" target="_blank">
+            <img class="img-circle img-rotate" src="/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">J4Muke</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">产品经理</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Shanghai, China</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="搜索" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="想要查找什么..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">公告</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>有些想说的话，无处可说。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> 标签</h3>
+    <div id="tag-cloud-list" class="widget-body">
+            
+            
+            <a href="/tags/dc%E6%BC%AB%E7%94%BB/" class="tag-list-link" rel="1">dc漫画<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/discord/" class="tag-list-link" rel="1">discord<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/facebook/" class="tag-list-link" rel="1">facebook<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/instagram/" class="tag-list-link" rel="1">instagram<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/netflix/" class="tag-list-link" rel="1">netflix<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A8%E8%8D%90/" class="tag-list-link" rel="1">个性化推荐<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E4%BA%92%E5%8A%A8/" class="tag-list-link" rel="1">互动<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E4%BA%A7%E5%93%81/" class="tag-list-link" rel="5">产品<span
+               class="tag-list-count">5</span></a>
+            
+            
+            <a href="/tags/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3/" class="tag-list-link" rel="2">产品文档<span
+               class="tag-list-count">2</span></a>
+            
+            
+            <a href="/tags/%E5%85%83%E5%AE%87%E5%AE%99/" class="tag-list-link" rel="1">元宇宙<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%83%B3%E6%B3%95/" class="tag-list-link" rel="1">想法<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%89%8E%E5%85%8B-%E6%96%BD%E8%80%90%E5%BE%B7/" class="tag-list-link" rel="1">扎克-施耐德<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/" class="tag-list-link" rel="1">数据统计<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F/" class="tag-list-link" rel="1">正义联盟<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%B8%B8%E6%88%8F%E7%8E%A9%E6%B3%95/" class="tag-list-link" rel="1">游戏玩法<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%94%B5%E5%BD%B1/" class="tag-list-link" rel="1">电影<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%A4%BE%E4%BA%A4%E8%BD%AF%E4%BB%B6/" class="tag-list-link" rel="1">社交软件<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%AE%97%E6%B3%95/" class="tag-list-link" rel="1">算法<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/" class="tag-list-link" rel="1">编程思想<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" class="tag-list-link" rel="1">读后感<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E8%B6%B3%E7%90%83/" class="tag-list-link" rel="1">足球<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E8%BF%90%E8%90%A5/" class="tag-list-link" rel="1">运营<span
+               class="tag-list-count">1</span></a>
+            
+    </div>
+<script>
+document.onreadystatechange = () => {
+  if (document.readyState === 'complete') {
+    tagCloud('#tag-cloud-list a',  8 ,  20 );
+  }
+};
+
+function tagCloud(where, min, max) {
+  let iMax = 0;
+  let iMin = 0;
+  $(where).each(function() {
+    let weight = Number($(this).attr("rel"));
+    if(iMax < weight) iMax = weight;
+    if(iMin > weight || iMin == 0) iMin = weight;
+  });
+  let step = (max - min)/(iMax - iMin);
+  $(where).each(function() {
+    let weight = $(this).attr("rel") - iMin;
+    $(this).css({"font-size": min + (weight * step) + 'px'});
+  });
+};
+</script>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> 分类</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/" class="category-list-link">一些想法</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95/" class="category-list-link">产品方法</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="/categories/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/" class="category-list-link">产品设计</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/" class="category-list-link">数据统计</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/%E9%97%B2%E6%9A%87%E7%94%9F%E6%B4%BB/" class="category-list-link">闲暇生活</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/%E9%98%85%E8%AF%BB/" class="category-list-link">阅读</a><span class="category-list-count">1</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> 标签</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="/tags/dc%E6%BC%AB%E7%94%BB/" class="tag-list-link">dc漫画</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/discord/" class="tag-list-link">discord</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/facebook/" class="tag-list-link">facebook</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/instagram/" class="tag-list-link">instagram</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/netflix/" class="tag-list-link">netflix</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A8%E8%8D%90/" class="tag-list-link">个性化推荐</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%BA%92%E5%8A%A8/" class="tag-list-link">互动</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%BA%A7%E5%93%81/" class="tag-list-link">产品</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3/" class="tag-list-link">产品文档</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E5%85%83%E5%AE%87%E5%AE%99/" class="tag-list-link">元宇宙</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%83%B3%E6%B3%95/" class="tag-list-link">想法</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%89%8E%E5%85%8B-%E6%96%BD%E8%80%90%E5%BE%B7/" class="tag-list-link">扎克-施耐德</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/" class="tag-list-link">数据统计</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F/" class="tag-list-link">正义联盟</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%B8%B8%E6%88%8F%E7%8E%A9%E6%B3%95/" class="tag-list-link">游戏玩法</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%94%B5%E5%BD%B1/" class="tag-list-link">电影</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%A4%BE%E4%BA%A4%E8%BD%AF%E4%BB%B6/" class="tag-list-link">社交软件</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%AE%97%E6%B3%95/" class="tag-list-link">算法</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/" class="tag-list-link">编程思想</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" class="tag-list-link">读后感</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E8%B6%B3%E7%90%83/" class="tag-list-link">足球</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E8%BF%90%E8%90%A5/" class="tag-list-link">运营</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/08/product-and-code/" class="title">产品设计思想和面向对象编程</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-08-02 22:17:31 &#43;0800 CST" itemprop="datePublished">2021-08-02</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/07/netflix/" class="title">购买Netflix会员后知道的事情</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-07-09 10:23:47 &#43;0800 CST" itemprop="datePublished">2021-07-09</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/07/instagram_share/" class="title">《解密INSTAGRAM》读后分享</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-07-02 23:19:48 &#43;0800 CST" itemprop="datePublished">2021-07-02</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/06/socialgames/" class="title">游戏是社交的未来？</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-06-24 11:20:59 &#43;0800 CST" itemprop="datePublished">2021-06-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/06/discord_share/" class="title">Discord的产品功能</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-06-12 20:56:42 &#43;0800 CST" itemprop="datePublished">2021-06-12</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">文章目录</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2021/06/discord_share/"
+    >Discord的产品功能</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="/2021/06/discord_share/" class="article-date">
+  <time datetime="2021-06-12 20:56:42 &#43;0800 CST" itemprop="datePublished">2021-06-12</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/"> 产品设计 </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/discord/"> DISCORD </a>
+    <a class="article-tag-link" href="/tags/%E4%BA%A7%E5%93%81/"> 产品 </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2021/06/discord_share/#comments"
+            class="article-comment-link">评论</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 2058字</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 5分 </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>今天来写点Discord的产品细节。</p>
+<p>之前一直是从比较大的角度去谈Discord，多少有些夸夸其谈</p>
+<ol>
+<li></li>
+</ol>
+<p>Discord的产品层级超乎想象的多，从上到下依次区分为：服务器 &gt; 类别 &gt; 频道 &gt; 帖子。</p>
+<p>服务器：分为两类，简版和社区。默认创建的是一个简单的交流场所，但可以选择升级为社区，相应地，赋予该服务器的权限管理、推广力度等等都更大（此升级是无门槛的）。</p>
+<p>类别：无太大意义，只是把服务器内部的频道进行分类。其中必有一类是VC，也就是语音房间类。</p>
+<p>频道：频道就有点像话题了，大家在同一个服务器内就不同的话题进行讨论，讨论方式就是IM式的了。</p>
+<p>帖子：如果在一个频道内聊天时，对某一个话题有深入交流的必要，可以转化为一个帖子，大家可以到帖子内进行深入沟通，从而不影响其他人交流。</p>
+<p><img src="https://res.craft.do/user/full/082ecb00-35dc-041f-6aab-00bfa0aa3beb/doc/1A50C2EE-3E64-464A-B9EB-5C0B69113DF2/53BFAC12-A470-45E6-AB14-7DB150234945_2/Image.png" alt="Image.png"></p>
+<ol start="2">
+<li></li>
+</ol>
+<p>机器人</p>
+<p>提到Discord不得不提到机器人，形形色色的机器人为丰富交流提供了无法想象的讨论素材和互动方式。</p>
+<p>机器人强大到什么程度呢？我举一个小例子，在我学习英语的服务器里。如果有人说了一句你看不懂的语言，你可以向Slack或者飞书那样对这句话做一个emoji反馈，如果你回复了🔄，机器人就会出现，帮你翻译这句话。</p>
+<p>你们可能会对类似的机器人生态是不是可以在国内建立有所怀疑，其实不用怀疑。我自己写过QQ机器人，在腾讯不开放QQ协议的情况下，已经有无数QQ机器人框架了，可以做到在QQ聊天窗口里斗地主。我自己就写过，在QQ聊天窗口里发一句上传图片，把某个表情包传到我指定的图床。</p>
+<ol start="3">
+<li></li>
+</ol>
+<p>身份角色</p>
+<p>在Discord社区里，通过角色来控制你的权限。例如，你不是管理员的角色，你就看不到独属于管理员的频道。</p>
+<p>在聊天时，别人可以通过看你的角色来对你有迅速的了解。比如，在学语言的服务器里，别人看我的角色，就可以看到：普通话流利、中国人、学习英语中这些角色。</p>
+<p>有意思的是，选择你的身份的交互是以点击Emoji来实现的。如下图，点一下M，就代表你选择了母语：普通话/国语。</p>
+<p>在discord里，投票也是以这种方式进行。</p>
+<p><img src="https://res.craft.do/user/full/082ecb00-35dc-041f-6aab-00bfa0aa3beb/doc/1A50C2EE-3E64-464A-B9EB-5C0B69113DF2/5502C256-B9F0-475D-B910-BF058975ED20_2/Image.png" alt="Image.png"></p>
+<ol start="4">
+<li></li>
+</ol>
+<p>会员体系</p>
+<p>Discord的会员提供两种类型的激励，分别是对自己以及对服务器。</p>
+<p>对自己来说，成为会员，你就可以：</p>
+<ul>
+<li>在服务器当中可以自定义角色。比如我就可以自定义一个：China NO.1，这样别人看我角色时就会看到。</li>
+<li>自定义你的昵称的颜色</li>
+<li>跨服务器使用表情包</li>
+<li>使用GIF头像</li>
+<li>使用动态的表情包（如果不是会员，可以用，但不会动）</li>
+</ul>
+<p>对服务器，成为会员，你可以选择为某个服务器助力，服务器的收益看图：</p>
+<p><img src="https://res.craft.do/user/full/082ecb00-35dc-041f-6aab-00bfa0aa3beb/doc/1A50C2EE-3E64-464A-B9EB-5C0B69113DF2/66C0689A-E47A-4E67-B745-FF3E43E3A929_2/Image.png" alt="Image.png"></p>
+<ol start="5">
+<li></li>
+</ol>
+<p>表情包</p>
+<p>这是我想分享的一个重点。</p>
+<p>在Discord里，表情包是属于服务器，而不是自己的。每个服务器可以由大家共同决定一批表情。如果你不是会员，你在这个服务器里聊天时，就只能使用该服务器的表情包。</p>
+<p>但是，一旦你成为会员，你就可以在A服务器使用B服务器的表情包。</p>
+<p>这个设计妙就妙在：</p>
+<ul>
+<li>你有了一个充会员，支持服务器添加更多表情的动力</li>
+<li>大家在共同决定表情包的过程中，有了共同建设的参与感</li>
+<li>成为会员后，为了更多好看的表情包，你会不断去探索其他的服务器</li>
+</ul>
+<p><img src="https://res.craft.do/user/full/082ecb00-35dc-041f-6aab-00bfa0aa3beb/doc/1A50C2EE-3E64-464A-B9EB-5C0B69113DF2/3555EDAB-E37C-40FA-A36D-BFC9B46D193B_2/Image.png" alt="Image.png"></p>
+<ol start="6">
+<li></li>
+</ol>
+<p>VC，即Voice Chat</p>
+<p>每个服务器都有自己的语音区域，毕竟这是Discord发家的地方。</p>
+<p>但说是语音房，实际上当你建立房间后，房间里的每个人既可以语音聊天，也可以直播，你可以随便去看房间里谁的直播，同时你们也可以聊天，或者拉入一个机器人，让大家一起来点歌，点歌也是发命令，比如：r!p 东风破，机器人就会去搜索这首歌，并在房间内播放。</p>
+<p>你也可以建立一个房间，指定谁能进入，公开/白名单/黑名单/私密等等。有趣的是，在某个频道，你可以去敲那些私密的房间（发命令：&amp;vc Knock房间名），房主就会收到申请，看看要不要让你加入。</p>
+<p>以我的观察，每天服务器都有一些人建立一些房间，每个房间会有那么6，7个人加入，大家一起听歌，或者一起学习互不打扰，或者一起看某个人的直播，一起练习口语等等。</p>
+<p><img src="https://res.craft.do/user/full/082ecb00-35dc-041f-6aab-00bfa0aa3beb/doc/1A50C2EE-3E64-464A-B9EB-5C0B69113DF2/420BC260-0187-4096-B59B-545E9E120355_2/Image.png" alt="Image.png"></p>
+<p>7</p>
+<p>命令式的交互</p>
+<p>可能是一点错觉，但是我接触到的这帮13-18岁的discord用户非常喜欢这种口令式的交互。我认为他们是喜欢这种反直觉式交互带给自己的特殊感觉，区别于其他人。</p>
+<p><img src="https://res.craft.do/user/full/082ecb00-35dc-041f-6aab-00bfa0aa3beb/doc/1A50C2EE-3E64-464A-B9EB-5C0B69113DF2/3ED7CB3F-5351-4E8B-A2B0-8A6A3FA23723_2/Image.png" alt="Image.png"></p>
+<p>8</p>
+<p>暂时只想到这些。</p>
+<p>再写点体会。</p>
+<p>Discord虽然是一个IM的交流方式，但是他通过频道，把一个大的兴趣下的人分配到不同话题下去交流。</p>
+<p>在虎扑，我们如果要聊足球，我们会到当天的新闻下，或者某个用户发的讨论贴下去聊。偶尔可能还因为没有新帖，聊不起来。</p>
+<p>在Discord，你可以到Transfer下去聊今天的转会消息；到战术频道去聊比赛战术；到某一场比赛的频道，去聊本场比赛的讨论。</p>
+<p>因为IM的缘故，这种交流获得响应的时间很快，但又因为拆分够细致，不会造成表达被淹没。（Discord可以针对频道开启慢速模式，指定回复频率）</p>
+<p>我能想到的不足之处可能是内容留存，比如虎扑有很多亮回帖留存，但是Discord就不会有。虽然Discord的管理员们会单开一些频道，在其中留下一些精华内容，但由于缺少互动，关注者寥寥。</p>
+<p>此外，Discord可能也是为了解决这个问题，有一个Pin消息的设计。被Pin的消息，可以从专门的入口去看，但因为入口太小，实际使用的人也不多。</p>
+<p><img src="https://res.craft.do/user/full/082ecb00-35dc-041f-6aab-00bfa0aa3beb/doc/1A50C2EE-3E64-464A-B9EB-5C0B69113DF2/61C9640D-D47D-418E-9E93-F44AE3597AF9_2/Image.png" alt="Image.png"></p>
+
+    </div>
+    <div class="article-footer">
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://weibo.com/u/3486501484" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://weibo.com/u/3486501484" target="_blank"><span class="text-dark">J4Muke</span><small class="ml-1x">产品经理</small></a></h3>
+        <div>Being Productive. Being Useful.</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+    <div id="vcomments"></div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/2021/05/metaverse/" title="元宇宙、涌现式游戏和失控"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;下一篇</span></a>
+            </li>
+            <li class="next">
+                <a href="/2021/06/socialgames/"
+                    title="游戏是社交的未来？"><span>上一篇&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="文章目录" role="button">
+                    <span>[&nbsp;</span><span>文章目录</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone,wechat"></div>
+        </div>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://weibo.com/u/3486501484" target="_blank" title="weibo" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-weibo"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2021  -
+    2021
+    <div class="publishby">
+        Being Productive. Being Useful.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="/js/application.min.a94ab19cb63a95c8d7fbd7b85cab3ddeea8c369bdf75b9cab6708787ead123af.js"></script>
+<script src="/js/plugin.min.19c5bcb2fb0789ab4f2b7834e5ceb5e92635645605bab902c1024b25f1502364.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(未命名)',
+            },
+            ROOT_URL: '\/',
+            CONTENT_URL: '\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="/js/insight.min.4a2d52de4bfff73e0c688404fe3d17c9a3ae12d9888e1e1ac9c690e4890de2ded50fe55f2b819c2ba55435a76f396f3ea6805765f0b0af5635cdf74ea459eab0.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine"></script>
+<script type="text/javascript">
+    var GUEST = ['nick', 'mail', 'link'];
+    var meta = 'nick,mail';
+    meta = meta.split(',').filter(function (item) {
+        return GUEST.indexOf(item) > -1;
+    });
+    new Valine({
+        el: '#vcomments',
+        verify: null ,
+        notify: null ,
+        appId: '2cGSWev1Oh89OFSgJVSBn5PH-gzGzoHsz',
+        appKey: 'tJ7wkRjmOgJJIjYh6dEqXoJ0',
+        placeholder: '你想对我说点什么呢？',
+        avatar: 'mm',
+        meta: meta,
+        pageSize: '10' || 10,
+        visitor: false 
+});
+</script>
+
+  </body>
+</html>
