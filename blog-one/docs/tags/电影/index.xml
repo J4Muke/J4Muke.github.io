@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>电影 on J4Muke StudiO</title>
+    <link>/tags/%E7%94%B5%E5%BD%B1/</link>
+    <description>Recent content in 电影 on J4Muke StudiO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>CC BY 4.0 CN</copyright>
+    <lastBuildDate>Mon, 22 Mar 2021 14:17:10 +0800</lastBuildDate>
+    
+        <atom:link href="/tags/%E7%94%B5%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>产品设计思想和面向对象编程</title>
+      <link>/2021/08/product-and-code/</link>
+      <pubDate>Mon, 02 Aug 2021 22:17:31 +0800</pubDate>
+      
+      <guid>/2021/08/product-and-code/</guid>
+      <description>我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。面向对象编程当中，最核心的三大要素是：封装、继承、多态。</description>
+    </item>
+    
+    <item>
+      <title>购买Netflix会员后知道的事情</title>
+      <link>/2021/07/netflix/</link>
+      <pubDate>Fri, 09 Jul 2021 10:23:47 +0800</pubDate>
+      
+      <guid>/2021/07/netflix/</guid>
+      <description>周末买了Netflix会员，考虑到我没有2K、4K显示设备，所以买的标准会员，最高支持清晰度：1080P，以及2台设备同时在线，费用是78港</description>
+    </item>
+    
+    <item>
+      <title>《解密INSTAGRAM》读后分享</title>
+      <link>/2021/07/instagram_share/</link>
+      <pubDate>Fri, 02 Jul 2021 23:19:48 +0800</pubDate>
+      
+      <guid>/2021/07/instagram_share/</guid>
+      <description>花了一些空余时间读完了《解密INSTAGRAM：一款拍照软件如何改变社交》这本书，记录一下自己即时的感受。 首先，在我读完书的当下（隔了一顿午</description>
+    </item>
+    
+    <item>
+      <title>游戏是社交的未来？</title>
+      <link>/2021/06/socialgames/</link>
+      <pubDate>Thu, 24 Jun 2021 11:20:59 +0800</pubDate>
+      
+      <guid>/2021/06/socialgames/</guid>
+      <description>最近这几年，在社交方面打动我的是2款游戏。 一款是《风之旅人》，陈星汉的作品，尽管它是一款老游戏了。游戏很短，无非就是在一个废墟的世界里，一个</description>
+    </item>
+    
+    <item>
+      <title>Discord的产品功能</title>
+      <link>/2021/06/discord_share/</link>
+      <pubDate>Sat, 12 Jun 2021 20:56:42 +0800</pubDate>
+      
+      <guid>/2021/06/discord_share/</guid>
+      <description>今天来写点Discord的产品细节。 之前一直是从比较大的角度去谈Discord，多少有些夸夸其谈 Discord的产品层级超乎想象的多，从上到</description>
+    </item>
+    
+    <item>
+      <title>元宇宙、涌现式游戏和失控</title>
+      <link>/2021/05/metaverse/</link>
+      <pubDate>Tue, 04 May 2021 13:40:58 +0800</pubDate>
+      
+      <guid>/2021/05/metaverse/</guid>
+      <description>最近有一个游戏概念很火，叫【涌现式设计】。它指的是以前的游戏都是创造一个剧情，一种通关路线，打一些boss。然而，塞尔达荒野之息开创了这种设</description>
+    </item>
+    
+    <item>
+      <title>海外公司的产品文档是怎么写的？</title>
+      <link>/2021/03/foreign_prd/</link>
+      <pubDate>Wed, 24 Mar 2021 15:26:46 +0800</pubDate>
+      
+      <guid>/2021/03/foreign_prd/</guid>
+      <description>在一个海外的产品经理入门科普文章当中，见到了对方推荐的产品文档模版，心生好奇。细读一番，发现整体结构与国内的产品文档并无太大差异，核心模块，</description>
+    </item>
+    
+    <item>
+      <title>导剪版《正义联盟》，我很喜欢</title>
+      <link>/2021/03/justice_league/</link>
+      <pubDate>Mon, 22 Mar 2021 14:17:10 +0800</pubDate>
+      
+      <guid>/2021/03/justice_league/</guid>
+      <description>特地抽出周末一整块的时间看完了长达4小时的扎克-施耐德版《正义联盟》。 不得不说，我对扎导的评价有了很大改观，并且开始幻想华纳能够给予支持，让</description>
+    </item>
+    
+    <item>
+      <title>一个经典的数据统计问题</title>
+      <link>/2021/03/wrong-statics/</link>
+      <pubDate>Tue, 16 Mar 2021 11:36:13 +0800</pubDate>
+      
+      <guid>/2021/03/wrong-statics/</guid>
+      <description>最近，在看足球社区的一个讨论时，看到一个有些让人意外的数字，稍微分析后，立刻意识到这是一个经典的统计问题。 数据统计有太多可被动手脚的地方，尤</description>
+    </item>
+    
+    <item>
+      <title>关于信息茧房与推荐算法</title>
+      <link>/2021/03/information-cocoons/</link>
+      <pubDate>Thu, 11 Mar 2021 17:23:03 +0800</pubDate>
+      
+      <guid>/2021/03/information-cocoons/</guid>
+      <description>今天在刷即刻时，取关了一位博主，原因是我感到与他价值观有所不同，或者说他对某件事的看法与我相去甚远，于是我点进他的个人主页，点击了取消关注。</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 11 Mar 2021 14:43:08 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>我是谁？ 一位内容与社区领域的产品经理，期望有一天能做出真正属于自己的产品。 懂一点点技术，曾写过iOS的Switch折扣信息App，因iOS 系</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>/2021/03/my-first-post/</link>
+      <pubDate>Wed, 10 Mar 2021 15:46:30 +0800</pubDate>
+      
+      <guid>/2021/03/my-first-post/</guid>
+      <description>你好，世界。 不知道是不是每个人都无法抗拒文字的魅力，且都自认为自己有写东西的能力及持续不断的激情。 至少现在的我是这样，于是我搭建了这个博客。</description>
+    </item>
+    
+  </channel>
+</rss>
