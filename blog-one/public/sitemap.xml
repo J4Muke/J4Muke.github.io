@@ -4,49 +4,140 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-03-24T15:26:46+08:00</lastmod>
+    <lastmod>2021-08-02T22:17:31+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-03-24T15:26:46+08:00</lastmod>
+    <lastmod>2021-08-02T22:17:31+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2021-03-24T15:26:46+08:00</lastmod>
+    <lastmod>2021-08-02T22:17:31+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/2021/08/product-and-code/</loc>
+    <lastmod>2021-08-02T22:17:31+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2021-03-24T15:26:46+08:00</lastmod>
+    <lastmod>2021-08-02T22:17:31+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/%E4%BA%A7%E5%93%81/</loc>
-    <lastmod>2021-03-24T15:26:46+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2021-03-24T15:26:46+08:00</lastmod>
+    <lastmod>2021-08-02T22:17:31+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3/</loc>
-    <lastmod>2021-03-24T15:26:46+08:00</lastmod>
+    <lastmod>2021-08-02T22:17:31+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2021-08-02T22:17:31+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/</loc>
+    <lastmod>2021-08-02T22:17:31+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/netflix/</loc>
+    <lastmod>2021-07-09T10:23:47+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/2021/07/netflix/</loc>
+    <lastmod>2021-07-09T10:23:47+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E9%97%B2%E6%9A%87%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-07-09T10:23:47+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/2021/06/socialgames/</loc>
+    <lastmod>2021-06-24T11:20:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</loc>
+    <lastmod>2021-06-24T11:20:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E4%BA%92%E5%8A%A8/</loc>
+    <lastmod>2021-06-24T11:20:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E6%B8%B8%E6%88%8F%E7%8E%A9%E6%B3%95/</loc>
+    <lastmod>2021-06-24T11:20:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E7%A4%BE%E4%BA%A4%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2021-06-24T11:20:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2021-05-04T13:40:58+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E5%85%83%E5%AE%87%E5%AE%99/</loc>
+    <lastmod>2021-05-04T13:40:58+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/2021/05/metaverse/</loc>
+    <lastmod>2021-05-04T13:40:58+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -60,13 +151,6 @@
   
   <url>
     <loc>/tags/dc%E6%BC%AB%E7%94%BB/</loc>
-    <lastmod>2021-03-22T14:17:10+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/</loc>
     <lastmod>2021-03-22T14:17:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -136,13 +220,6 @@
   </url>
   
   <url>
-    <loc>/categories/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2021-03-11T17:23:03+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/2021/03/information-cocoons/</loc>
     <lastmod>2021-03-11T17:23:03+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -178,7 +255,55 @@
   </url>
   
   <url>
+    <loc>/tags/discord/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/discord_share/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/facebook/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/instagram/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/series/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/instagram_share/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E8%BF%90%E8%90%A5/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E9%98%85%E8%AF%BB/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
