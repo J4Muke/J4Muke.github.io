@@ -20,7 +20,7 @@
     <meta http-equiv="window-target" content="_top" />
     
     
-    <meta name="description" content="我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。面向对象编程当中，最核心的三大要素是：封装、继承、多态。" />
+    <meta name="description" content="我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。 面向对象编程当中，最核心的三大要素是：封装、继承、多态。" />
     <meta name="generator" content="Hugo 0.87.0 with theme pure" />
     <title>产品设计思想和面向对象编程 - J4Muke StudiO</title>
     
@@ -30,19 +30,19 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
     <meta property="og:title" content="产品设计思想和面向对象编程" />
-<meta property="og:description" content="我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。面向对象编程当中，最核心的三大要素是：封装、继承、多态。" />
+<meta property="og:description" content="我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。 面向对象编程当中，最核心的三大要素是：封装、继承、多态。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/2021/08/product-and-code/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-08-02T22:17:31+08:00" />
 <meta property="article:modified_time" content="2021-08-02T22:17:31+08:00" />
 
 <meta itemprop="name" content="产品设计思想和面向对象编程">
-<meta itemprop="description" content="我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。面向对象编程当中，最核心的三大要素是：封装、继承、多态。"><meta itemprop="datePublished" content="2021-08-02T22:17:31+08:00" />
+<meta itemprop="description" content="我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。 面向对象编程当中，最核心的三大要素是：封装、继承、多态。"><meta itemprop="datePublished" content="2021-08-02T22:17:31+08:00" />
 <meta itemprop="dateModified" content="2021-08-02T22:17:31+08:00" />
 <meta itemprop="wordCount" content="585">
 <meta itemprop="keywords" content="产品文档,产品,编程思想," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="产品设计思想和面向对象编程"/>
-<meta name="twitter:description" content="我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。面向对象编程当中，最核心的三大要素是：封装、继承、多态。"/>
+<meta name="twitter:description" content="我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。 面向对象编程当中，最核心的三大要素是：封装、继承、多态。"/>
 
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -143,7 +143,7 @@
     <h3 class="widget-title">公告</h3>
     <div class="widget-body">
         <div id="board">
-            <div class="content"><p>有些想说的话，无处可说。</p>
+            <div class="content"><p>日常想法的存档。</p>
             </div>
         </div>
     </div>
@@ -486,15 +486,22 @@ function tagCloud(where, min, max) {
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。面向对象编程当中，最核心的三大要素是：封装、继承、多态。</p>
+      <p>我相信产品大多都有这个思想，只不过这个思想在编程上体现得特别明显，就是面向对象编程。</p>
+<p>面向对象编程当中，最核心的三大要素是：封装、继承、多态。</p>
 <p>下面是我直接复制的编程里的定义：</p>
+<blockquote>
 <p><strong>封装</strong>：也就是把客观事物封装成抽象的类，并且类可以把自己的数据和方法只让可信的类或者对象操作，对不可信的进行信息隐藏。</p>
+</blockquote>
+<blockquote>
 <p><strong>继承</strong>：是指这样一种能力：它可以使用现有类的所有功能，并在无需重新编写原来的类的情况下对这些功能进行扩展。</p>
+</blockquote>
+<blockquote>
 <p><strong>多态</strong>：是同一个行为具有多个不同表现形式或形态的能力。</p>
+</blockquote>
 <p>如何在编程里实现我就不说了，但是对应到产品就是指：</p>
-<p>封装：尽量抽象所有你将要提供的所有服务，找到它们的共性。它们所具备的必须字段就是【属性】，它们能提供的功能，就是【方法】。最终抽象出来的这个东西，在编程里叫做：类。可以以它为基础生成各种各样的【对象】。</p>
-<p>继承：抽象的【类】的生成的对象具备所有【类】该有的【属性】和【方法】，比如，你照着一个车的类所生产的各种不同的汽车都有【速度】的属性，都有【载人】的方法。</p>
-<p>多态：根据你赋予的不同初始条件，所生成的【对象】却可以有自己不同的体现。比如，你可以是电动车，也可以是汽油车，可以是大巴车，也可以是跑车。在产品里，基于最初的抽象设计，你可以为不同的人群提供不同体现的细分服务。例如网易云的歌单，它既可以是歌单，也可以是排行榜，也可以是专辑，还可以是电台。</p>
+<p><strong>封装</strong>：尽量抽象所有你将要提供的所有服务，找到它们的共性。它们所具备的必须字段就是【属性】，它们能提供的功能，就是【方法】。最终抽象出来的这个东西，在编程里叫做：类。可以以它为基础生成各种各样的【对象】。</p>
+<p><strong>继承</strong>：抽象的【类】的生成的对象具备所有【类】该有的【属性】和【方法】，比如，你照着一个车的类所生产的各种不同的汽车都有【速度】的属性，都有【载人】的方法。</p>
+<p><strong>多态</strong>：根据你赋予的不同初始条件，所生成的【对象】却可以有自己不同的体现。比如，你可以是电动车，也可以是汽油车，可以是大巴车，也可以是跑车。在产品里，基于最初的抽象设计，你可以为不同的人群提供不同体现的细分服务。例如网易云的歌单，它既可以是歌单，也可以是排行榜，也可以是专辑，还可以是电台。</p>
 <p>如果写过代码，以上感觉会更深刻。</p>
 
     </div>

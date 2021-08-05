@@ -123,7 +123,7 @@ params:
       url: favicon.ico
     title: J4Muke StudiO # 页面title
     favicon: favicon.ico
-    board: <p>有些想说的话，无处可说。</p> # 公告牌
+    board: <p>日常想法的存档。</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
