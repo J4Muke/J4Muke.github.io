@@ -13,10 +13,9 @@ tags: ["代码","奥运会"]
 
 ![image-20210805181354050](https://tva1.sinaimg.cn/large/008i3skNgy1gt62u9hmilj320g0mowh1.jpg)
 
-
 最终视频效果地址：
 
-https://www.bilibili.com/video/BV1A64y1z7P4/
+{{< bilibili BV1A64y1z7P4 >}}
 
 项目代码如下：
 
