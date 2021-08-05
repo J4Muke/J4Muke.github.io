@@ -6,10 +6,19 @@
     <description>Recent content on J4Muke StudiO</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Mon, 02 Aug 2021 22:17:31 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Aug 2021 18:11:18 +0800</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>奥运会超级变变变生成器</title>
+      <link>/2021/08/tokoyo-kun/</link>
+      <pubDate>Thu, 05 Aug 2021 18:11:18 +0800</pubDate>
+      
+      <guid>/2021/08/tokoyo-kun/</guid>
+      <description>东京奥运会的超级变变变挺好玩，抖音上也有不少人做了模仿视频。 正好看到有人分享了日本小哥通过机器学习模仿摄像头生成视频的代码，修改后玩了一下，</description>
+    </item>
     
     <item>
       <title>产品设计思想和面向对象编程</title>
