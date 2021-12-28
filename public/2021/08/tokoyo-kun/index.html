@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <title>
+        东京奥运会超级变变变生成器 - J4Muke StudiO
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="东京奥运会的超级变变变挺好玩，抖音上也有不少人做了模仿视频。 正好看到有人分享了日本小哥通过机器学习模仿摄像头生成视频的代码，修改后玩了一下，" />
+    <meta name="generator" content="Hugo 0.58.2 with theme pure" />
+    <title>东京奥运会超级变变变生成器 - J4Muke StudiO</title>
+    
+    
+    <link rel="stylesheet" href="/css/style.min.15eed95b4f581ec72a43c3e2ca43ecc4082edf6e55b39e30f1219193148505a2.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="东京奥运会超级变变变生成器" />
+<meta property="og:description" content="东京奥运会的超级变变变挺好玩，抖音上也有不少人做了模仿视频。 正好看到有人分享了日本小哥通过机器学习模仿摄像头生成视频的代码，修改后玩了一下，" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2021/08/tokoyo-kun/" />
+<meta property="article:published_time" content="2021-08-05T18:11:18+08:00" />
+<meta property="article:modified_time" content="2021-08-05T18:11:18+08:00" />
+<meta itemprop="name" content="东京奥运会超级变变变生成器">
+<meta itemprop="description" content="东京奥运会的超级变变变挺好玩，抖音上也有不少人做了模仿视频。 正好看到有人分享了日本小哥通过机器学习模仿摄像头生成视频的代码，修改后玩了一下，">
+
+
+<meta itemprop="datePublished" content="2021-08-05T18:11:18&#43;08:00" />
+<meta itemprop="dateModified" content="2021-08-05T18:11:18&#43;08:00" />
+<meta itemprop="wordCount" content="2108">
+
+
+
+<meta itemprop="keywords" content="代码,奥运会," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="东京奥运会超级变变变生成器"/>
+<meta name="twitter:description" content="东京奥运会的超级变变变挺好玩，抖音上也有不少人做了模仿视频。 正好看到有人分享了日本小哥通过机器学习模仿摄像头生成视频的代码，修改后玩了一下，"/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://weibo.com/u/3486501484" target="_blank">
+            <img class="img-circle img-rotate" src="/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">J4Muke</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">产品经理</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Shanghai, China</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="搜索" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="想要查找什么..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">公告</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>日常想法的存档。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> 标签</h3>
+    <div id="tag-cloud-list" class="widget-body">
+            
+            
+            <a href="/tags/dc%E6%BC%AB%E7%94%BB/" class="tag-list-link" rel="1">dc漫画<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/discord/" class="tag-list-link" rel="1">discord<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/facebook/" class="tag-list-link" rel="1">facebook<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/instagram/" class="tag-list-link" rel="1">instagram<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/netflix/" class="tag-list-link" rel="1">netflix<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A8%E8%8D%90/" class="tag-list-link" rel="1">个性化推荐<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E4%BA%92%E5%8A%A8/" class="tag-list-link" rel="1">互动<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E4%BA%A7%E5%93%81/" class="tag-list-link" rel="5">产品<span
+               class="tag-list-count">5</span></a>
+            
+            
+            <a href="/tags/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3/" class="tag-list-link" rel="2">产品文档<span
+               class="tag-list-count">2</span></a>
+            
+            
+            <a href="/tags/%E4%BB%A3%E7%A0%81/" class="tag-list-link" rel="1">代码<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E5%85%83%E5%AE%87%E5%AE%99/" class="tag-list-link" rel="1">元宇宙<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E5%A5%A5%E8%BF%90%E4%BC%9A/" class="tag-list-link" rel="1">奥运会<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%83%B3%E6%B3%95/" class="tag-list-link" rel="1">想法<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%89%8E%E5%85%8B-%E6%96%BD%E8%80%90%E5%BE%B7/" class="tag-list-link" rel="1">扎克-施耐德<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/" class="tag-list-link" rel="1">数据统计<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F/" class="tag-list-link" rel="1">正义联盟<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E6%B8%B8%E6%88%8F%E7%8E%A9%E6%B3%95/" class="tag-list-link" rel="1">游戏玩法<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%94%B5%E5%BD%B1/" class="tag-list-link" rel="1">电影<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%A4%BE%E4%BA%A4%E8%BD%AF%E4%BB%B6/" class="tag-list-link" rel="1">社交软件<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%AE%97%E6%B3%95/" class="tag-list-link" rel="1">算法<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/" class="tag-list-link" rel="1">编程思想<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" class="tag-list-link" rel="1">读后感<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E8%B6%B3%E7%90%83/" class="tag-list-link" rel="1">足球<span
+               class="tag-list-count">1</span></a>
+            
+            
+            <a href="/tags/%E8%BF%90%E8%90%A5/" class="tag-list-link" rel="1">运营<span
+               class="tag-list-count">1</span></a>
+            
+    </div>
+<script>
+document.onreadystatechange = () => {
+  if (document.readyState === 'complete') {
+    tagCloud('#tag-cloud-list a',  8 ,  20 );
+  }
+};
+
+function tagCloud(where, min, max) {
+  let iMax = 0;
+  let iMin = 0;
+  $(where).each(function() {
+    let weight = Number($(this).attr("rel"));
+    if(iMax < weight) iMax = weight;
+    if(iMin > weight || iMin == 0) iMin = weight;
+  });
+  let step = (max - min)/(iMax - iMin);
+  $(where).each(function() {
+    let weight = $(this).attr("rel") - iMin;
+    $(this).css({"font-size": min + (weight * step) + 'px'});
+  });
+};
+</script>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> 分类</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="/categories/%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/" class="category-list-link">一些想法</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95/" class="category-list-link">产品方法</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="/categories/%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1/" class="category-list-link">产品设计</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="/categories/%E4%BB%A3%E7%A0%81/" class="category-list-link">代码</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/" class="category-list-link">数据统计</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/%E9%97%B2%E6%9A%87%E7%94%9F%E6%B4%BB/" class="category-list-link">闲暇生活</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="/categories/%E9%98%85%E8%AF%BB/" class="category-list-link">阅读</a><span class="category-list-count">1</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> 标签</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="/tags/dc%E6%BC%AB%E7%94%BB/" class="tag-list-link">dc漫画</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/discord/" class="tag-list-link">discord</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/facebook/" class="tag-list-link">facebook</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/instagram/" class="tag-list-link">instagram</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/netflix/" class="tag-list-link">netflix</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%B8%AA%E6%80%A7%E5%8C%96%E6%8E%A8%E8%8D%90/" class="tag-list-link">个性化推荐</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%BA%92%E5%8A%A8/" class="tag-list-link">互动</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%BA%A7%E5%93%81/" class="tag-list-link">产品</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%BA%A7%E5%93%81%E6%96%87%E6%A1%A3/" class="tag-list-link">产品文档</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E4%BB%A3%E7%A0%81/" class="tag-list-link">代码</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E5%85%83%E5%AE%87%E5%AE%99/" class="tag-list-link">元宇宙</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E5%A5%A5%E8%BF%90%E4%BC%9A/" class="tag-list-link">奥运会</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%83%B3%E6%B3%95/" class="tag-list-link">想法</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%89%8E%E5%85%8B-%E6%96%BD%E8%80%90%E5%BE%B7/" class="tag-list-link">扎克-施耐德</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1/" class="tag-list-link">数据统计</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%AD%A3%E4%B9%89%E8%81%94%E7%9B%9F/" class="tag-list-link">正义联盟</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E6%B8%B8%E6%88%8F%E7%8E%A9%E6%B3%95/" class="tag-list-link">游戏玩法</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%94%B5%E5%BD%B1/" class="tag-list-link">电影</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%A4%BE%E4%BA%A4%E8%BD%AF%E4%BB%B6/" class="tag-list-link">社交软件</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%AE%97%E6%B3%95/" class="tag-list-link">算法</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3/" class="tag-list-link">编程思想</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" class="tag-list-link">读后感</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E8%B6%B3%E7%90%83/" class="tag-list-link">足球</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="/tags/%E8%BF%90%E8%90%A5/" class="tag-list-link">运营</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/08/tokoyo-kun/" class="title">东京奥运会超级变变变生成器</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-08-05 18:11:18 &#43;0800 CST" itemprop="datePublished">2021-08-05</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/08/product-and-code/" class="title">产品设计思想和面向对象编程</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-08-02 22:17:31 &#43;0800 CST" itemprop="datePublished">2021-08-02</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/07/netflix/" class="title">购买Netflix会员后知道的事情</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-07-09 10:23:47 &#43;0800 CST" itemprop="datePublished">2021-07-09</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/07/instagram_share/" class="title">《解密INSTAGRAM》读后分享</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-07-02 23:19:48 &#43;0800 CST" itemprop="datePublished">2021-07-02</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="/2021/06/socialgames/" class="title">游戏是社交的未来？</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-06-24 11:20:59 &#43;0800 CST" itemprop="datePublished">2021-06-24</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">文章目录</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2021/08/tokoyo-kun/"
+    >东京奥运会超级变变变生成器</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="/2021/08/tokoyo-kun/" class="article-date">
+  <time datetime="2021-08-05 18:11:18 &#43;0800 CST" itemprop="datePublished">2021-08-05</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/%E4%BB%A3%E7%A0%81/"> 代码 </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/%E4%BB%A3%E7%A0%81/"> 代码 </a>
+    <a class="article-tag-link" href="/tags/%E5%A5%A5%E8%BF%90%E4%BC%9A/"> 奥运会 </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2021/08/tokoyo-kun/#comments"
+            class="article-comment-link">评论</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 2108字</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 5分 </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>东京奥运会的超级变变变挺好玩，抖音上也有不少人做了模仿视频。</p>
+
+<p>正好看到有人分享了日本小哥通过机器学习模仿摄像头生成视频的代码，修改后玩了一下，可以从视频生成，效果不错。</p>
+
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gt62u9hmilj320g0mowh1.jpg" alt="image-20210805181354050" /></p>
+
+<p>最终视频效果地址：</p>
+
+
+
+
+
+<div><iframe id="biliplayer" src="//player.bilibili.com/player.html?bvid=BV1A64y1z7P4&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" loading="lazy" > </iframe></div>
+
+
+<style>
+
+#bilibili {
+  width: 100%;
+  height: 550px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #bilibili {
+    width: 100%;
+    height: 250px;
+  }
+}
+</style>
+
+
+<p>项目代码如下：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python</span>
+<span style="color:#75715e"># -*- coding: utf-8 -*-</span>
+<span style="color:#f92672">import</span> copy
+<span style="color:#f92672">from</span> datetime <span style="color:#f92672">import</span> datetime
+<span style="color:#f92672">import</span> math
+<span style="color:#f92672">import</span> argparse
+
+<span style="color:#f92672">import</span> cv2 <span style="color:#f92672">as</span> cv
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">import</span> mediapipe <span style="color:#f92672">as</span> mp
+
+<span style="color:#f92672">from</span> utils <span style="color:#f92672">import</span> CvFpsCalc
+
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_args</span>():
+    parser <span style="color:#f92672">=</span> argparse<span style="color:#f92672">.</span>ArgumentParser()
+
+    <span style="color:#75715e">#parser.add_argument(&#34;--device&#34;, type=int, default=0)</span>
+    parser<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;--file&#39;</span>, type<span style="color:#f92672">=</span>str, required<span style="color:#f92672">=</span>True, help<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;video file path&#34;</span>)
+
+    parser<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#34;--width&#34;</span>, help<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;cap width&#39;</span>, type<span style="color:#f92672">=</span>int, default<span style="color:#f92672">=</span><span style="color:#ae81ff">640</span>)
+    parser<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#34;--height&#34;</span>, help<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;cap height&#39;</span>, type<span style="color:#f92672">=</span>int, default<span style="color:#f92672">=</span><span style="color:#ae81ff">360</span>)
+
+    parser<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;--static_image_mode&#39;</span>, action<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;store_true&#39;</span>)
+    parser<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#34;--model_complexity&#34;</span>,
+                        help<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;model_complexity(0,1(default),2)&#39;</span>,
+                        type<span style="color:#f92672">=</span>int,
+                        default<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+    parser<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#34;--min_detection_confidence&#34;</span>,
+                        help<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;min_detection_confidence&#39;</span>,
+                        type<span style="color:#f92672">=</span>float,
+                        default<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>)
+    parser<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#34;--min_tracking_confidence&#34;</span>,
+                        help<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;min_tracking_confidence&#39;</span>,
+                        type<span style="color:#f92672">=</span>int,
+                        default<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>)
+
+    parser<span style="color:#f92672">.</span>add_argument(<span style="color:#e6db74">&#39;--rev_color&#39;</span>, action<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;store_true&#39;</span>)
+
+    args <span style="color:#f92672">=</span> parser<span style="color:#f92672">.</span>parse_args()
+
+    <span style="color:#66d9ef">return</span> args
+
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+    <span style="color:#75715e"># 引数解析 #################################################################</span>
+    args <span style="color:#f92672">=</span> get_args()
+
+    <span style="color:#66d9ef">print</span>(args)
+
+    <span style="color:#75715e">#cap_device = args.device</span>
+    cap_file <span style="color:#f92672">=</span> args<span style="color:#f92672">.</span>file
+    cap_width <span style="color:#f92672">=</span> args<span style="color:#f92672">.</span>width
+    cap_height <span style="color:#f92672">=</span> args<span style="color:#f92672">.</span>height
+
+    static_image_mode <span style="color:#f92672">=</span> args<span style="color:#f92672">.</span>static_image_mode
+    model_complexity <span style="color:#f92672">=</span> args<span style="color:#f92672">.</span>model_complexity
+    min_detection_confidence <span style="color:#f92672">=</span> args<span style="color:#f92672">.</span>min_detection_confidence
+    min_tracking_confidence <span style="color:#f92672">=</span> args<span style="color:#f92672">.</span>min_tracking_confidence
+
+    rev_color <span style="color:#f92672">=</span> args<span style="color:#f92672">.</span>rev_color
+
+    <span style="color:#75715e"># カメラ準備 ###############################################################</span>
+    <span style="color:#75715e">#cap = cv.VideoCapture(cap_device)</span>
+    cap <span style="color:#f92672">=</span> cv<span style="color:#f92672">.</span>VideoCapture(cap_file)
+    cap<span style="color:#f92672">.</span>set(cv<span style="color:#f92672">.</span>CAP_PROP_FRAME_WIDTH, cap_width)
+    cap<span style="color:#f92672">.</span>set(cv<span style="color:#f92672">.</span>CAP_PROP_FRAME_HEIGHT, cap_height)
+
+    <span style="color:#75715e"># モデルロード #############################################################</span>
+    mp_pose <span style="color:#f92672">=</span> mp<span style="color:#f92672">.</span>solutions<span style="color:#f92672">.</span>pose
+    pose <span style="color:#f92672">=</span> mp_pose<span style="color:#f92672">.</span>Pose(
+        static_image_mode<span style="color:#f92672">=</span>static_image_mode,
+        model_complexity<span style="color:#f92672">=</span>model_complexity,
+        min_detection_confidence<span style="color:#f92672">=</span>min_detection_confidence,
+        min_tracking_confidence<span style="color:#f92672">=</span>min_tracking_confidence,
+    )
+
+    <span style="color:#75715e"># FPS計測モジュール ########################################################</span>
+    cvFpsCalc <span style="color:#f92672">=</span> CvFpsCalc(buffer_len<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>)
+
+    <span style="color:#75715e"># 色指定</span>
+    <span style="color:#66d9ef">if</span> rev_color:
+        color <span style="color:#f92672">=</span> (<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>)
+        bg_color <span style="color:#f92672">=</span> (<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">33</span>, <span style="color:#ae81ff">3</span>)
+    <span style="color:#66d9ef">else</span>:
+        color <span style="color:#f92672">=</span> (<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">33</span>, <span style="color:#ae81ff">3</span>)
+        bg_color <span style="color:#f92672">=</span> (<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>)
+
+    is_first <span style="color:#f92672">=</span> True
+    output_video <span style="color:#f92672">=</span> None
+    <span style="color:#66d9ef">while</span> True:
+        display_fps <span style="color:#f92672">=</span> cvFpsCalc<span style="color:#f92672">.</span>get()
+
+        <span style="color:#75715e"># カメラキャプチャ #####################################################</span>
+        ret, image <span style="color:#f92672">=</span> cap<span style="color:#f92672">.</span>read()
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> ret:
+            <span style="color:#66d9ef">break</span>
+        <span style="color:#75715e">#image = cv.flip(image, 1)  # ミラー表示</span>
+        <span style="color:#75715e">#image = cv.flip(image, 1)  # ミラー表示</span>
+        debug_image01 <span style="color:#f92672">=</span> copy<span style="color:#f92672">.</span>deepcopy(image)
+        debug_image02 <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros((image<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>], image<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>], <span style="color:#ae81ff">3</span>), np<span style="color:#f92672">.</span>uint8)
+        cv<span style="color:#f92672">.</span>rectangle(debug_image02, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>), (image<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>], image<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>]),
+                    bg_color,
+                    thickness<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>)
+
+        <span style="color:#75715e"># 検出実施 #############################################################</span>
+        image <span style="color:#f92672">=</span> cv<span style="color:#f92672">.</span>cvtColor(image, cv<span style="color:#f92672">.</span>COLOR_BGR2RGB)
+        results <span style="color:#f92672">=</span> pose<span style="color:#f92672">.</span>process(image)
+
+        <span style="color:#75715e"># 描画 ################################################################</span>
+        <span style="color:#66d9ef">if</span> results<span style="color:#f92672">.</span>pose_landmarks <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> None:
+            <span style="color:#75715e"># 描画</span>
+            debug_image01 <span style="color:#f92672">=</span> draw_landmarks(
+                debug_image01,
+                results<span style="color:#f92672">.</span>pose_landmarks,
+            )
+            debug_image02 <span style="color:#f92672">=</span> draw_stick_figure(
+                debug_image02,
+                results<span style="color:#f92672">.</span>pose_landmarks,
+                color<span style="color:#f92672">=</span>color,
+                bg_color<span style="color:#f92672">=</span>bg_color,
+            )
+
+        cv<span style="color:#f92672">.</span>putText(debug_image01, <span style="color:#e6db74">&#34;FPS:&#34;</span> <span style="color:#f92672">+</span> str(display_fps), (<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">30</span>),
+                   cv<span style="color:#f92672">.</span>FONT_HERSHEY_SIMPLEX, <span style="color:#ae81ff">1.0</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>, cv<span style="color:#f92672">.</span>LINE_AA)
+        cv<span style="color:#f92672">.</span>putText(debug_image02, <span style="color:#e6db74">&#34;FPS:&#34;</span> <span style="color:#f92672">+</span> str(display_fps), (<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">30</span>),
+                   cv<span style="color:#f92672">.</span>FONT_HERSHEY_SIMPLEX, <span style="color:#ae81ff">1.0</span>, color, <span style="color:#ae81ff">2</span>, cv<span style="color:#f92672">.</span>LINE_AA)
+
+        <span style="color:#75715e"># キー処理(ESC：終了) #################################################</span>
+        key <span style="color:#f92672">=</span> cv<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">1</span>)
+        <span style="color:#66d9ef">if</span> key <span style="color:#f92672">==</span> <span style="color:#ae81ff">27</span>:  <span style="color:#75715e"># ESC</span>
+            <span style="color:#66d9ef">break</span>
+
+        <span style="color:#75715e"># 画面反映 #############################################################</span>
+        cv<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;Tokyo2020 Debug&#39;</span>, debug_image01)
+        cv<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;Tokyo2020 Pictogram&#39;</span>, debug_image02)
+
+        <span style="color:#66d9ef">if</span> is_first:
+            fmt <span style="color:#f92672">=</span> cv<span style="color:#f92672">.</span>VideoWriter_fourcc(<span style="color:#e6db74">&#39;m&#39;</span>, <span style="color:#e6db74">&#39;p&#39;</span>, <span style="color:#e6db74">&#39;4&#39;</span>, <span style="color:#e6db74">&#39;v&#39;</span>)
+            fps <span style="color:#f92672">=</span> cap<span style="color:#f92672">.</span>get(cv<span style="color:#f92672">.</span>CAP_PROP_FPS)
+            now <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>now()<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#39;%Y-%m-</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">-%H%M%S&#39;</span>)
+            output_video <span style="color:#f92672">=</span> cv<span style="color:#f92672">.</span>VideoWriter(f<span style="color:#e6db74">&#39;{now}-pictgram-output.mp4&#39;</span>, fmt, fps, (debug_image02<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>], debug_image02<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>]))
+            is_first <span style="color:#f92672">=</span> False
+
+        output_video<span style="color:#f92672">.</span>write(debug_image02)
+
+
+    cap<span style="color:#f92672">.</span>release()
+    <span style="color:#66d9ef">if</span> output_video:
+        output_video<span style="color:#f92672">.</span>release()
+    cv<span style="color:#f92672">.</span>destroyAllWindows()
+
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">draw_stick_figure</span>(
+        image,
+        landmarks,
+        color<span style="color:#f92672">=</span>(<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">33</span>, <span style="color:#ae81ff">3</span>),
+        bg_color<span style="color:#f92672">=</span>(<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>),
+        visibility_th<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>,
+):
+    image_width, image_height <span style="color:#f92672">=</span> image<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>], image<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>]
+
+    <span style="color:#75715e"># 各ランドマーク算出</span>
+    landmark_point <span style="color:#f92672">=</span> []
+    <span style="color:#66d9ef">for</span> index, landmark <span style="color:#f92672">in</span> enumerate(landmarks<span style="color:#f92672">.</span>landmark):
+        landmark_x <span style="color:#f92672">=</span> min(int(landmark<span style="color:#f92672">.</span>x <span style="color:#f92672">*</span> image_width), image_width <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
+        landmark_y <span style="color:#f92672">=</span> min(int(landmark<span style="color:#f92672">.</span>y <span style="color:#f92672">*</span> image_height), image_height <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
+        landmark_z <span style="color:#f92672">=</span> landmark<span style="color:#f92672">.</span>z
+        landmark_point<span style="color:#f92672">.</span>append(
+            [index, landmark<span style="color:#f92672">.</span>visibility, (landmark_x, landmark_y), landmark_z])
+
+    <span style="color:#75715e"># 脚の付け根の位置を腰の中点に修正</span>
+    right_leg <span style="color:#f92672">=</span> landmark_point[<span style="color:#ae81ff">23</span>]
+    left_leg <span style="color:#f92672">=</span> landmark_point[<span style="color:#ae81ff">24</span>]
+    leg_x <span style="color:#f92672">=</span> int((right_leg[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">+</span> left_leg[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">0</span>]) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>)
+    leg_y <span style="color:#f92672">=</span> int((right_leg[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span> left_leg[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">1</span>]) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>)
+
+    landmark_point[<span style="color:#ae81ff">23</span>][<span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> (leg_x, leg_y)
+    landmark_point[<span style="color:#ae81ff">24</span>][<span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> (leg_x, leg_y)
+
+    <span style="color:#75715e"># 距離順にソート</span>
+    sorted_landmark_point <span style="color:#f92672">=</span> sorted(landmark_point,
+                                   reverse<span style="color:#f92672">=</span>True,
+                                   key<span style="color:#f92672">=</span><span style="color:#66d9ef">lambda</span> x: x[<span style="color:#ae81ff">3</span>])
+
+    <span style="color:#75715e"># 各サイズ算出</span>
+    (face_x, face_y), face_radius <span style="color:#f92672">=</span> min_enclosing_face_circle(landmark_point)
+
+    face_x <span style="color:#f92672">=</span> int(face_x)
+    face_y <span style="color:#f92672">=</span> int(face_y)
+    face_radius <span style="color:#f92672">=</span> int(face_radius <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.5</span>)
+
+    stick_radius01 <span style="color:#f92672">=</span> int(face_radius <span style="color:#f92672">*</span> (<span style="color:#ae81ff">4</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">5</span>))
+    stick_radius02 <span style="color:#f92672">=</span> int(stick_radius01 <span style="color:#f92672">*</span> (<span style="color:#ae81ff">3</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">4</span>))
+    stick_radius03 <span style="color:#f92672">=</span> int(stick_radius02 <span style="color:#f92672">*</span> (<span style="color:#ae81ff">3</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">4</span>))
+
+    <span style="color:#75715e"># 描画対象リスト</span>
+    draw_list <span style="color:#f92672">=</span> [
+        <span style="color:#ae81ff">11</span>,  <span style="color:#75715e"># 右腕</span>
+        <span style="color:#ae81ff">12</span>,  <span style="color:#75715e"># 左腕</span>
+        <span style="color:#ae81ff">23</span>,  <span style="color:#75715e"># 右脚</span>
+        <span style="color:#ae81ff">24</span>,  <span style="color:#75715e"># 左脚</span>
+    ]
+
+    <span style="color:#75715e"># 背景色</span>
+    cv<span style="color:#f92672">.</span>rectangle(image, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>), (image_width, image_height),
+                 bg_color,
+                 thickness<span style="color:#f92672">=-</span><span style="color:#ae81ff">1</span>)
+
+    <span style="color:#75715e"># 顔 描画</span>
+    cv<span style="color:#f92672">.</span>circle(image, (face_x, face_y), face_radius, color, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+
+    <span style="color:#75715e"># 腕/脚 描画</span>
+    <span style="color:#66d9ef">for</span> landmark_info <span style="color:#f92672">in</span> sorted_landmark_point:
+        index <span style="color:#f92672">=</span> landmark_info[<span style="color:#ae81ff">0</span>]
+
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">in</span> draw_list:
+            point01 <span style="color:#f92672">=</span> [p <span style="color:#66d9ef">for</span> p <span style="color:#f92672">in</span> landmark_point <span style="color:#66d9ef">if</span> p[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">==</span> index][<span style="color:#ae81ff">0</span>]
+            point02 <span style="color:#f92672">=</span> [p <span style="color:#66d9ef">for</span> p <span style="color:#f92672">in</span> landmark_point <span style="color:#66d9ef">if</span> p[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">==</span> (index <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span>)][<span style="color:#ae81ff">0</span>]
+            point03 <span style="color:#f92672">=</span> [p <span style="color:#66d9ef">for</span> p <span style="color:#f92672">in</span> landmark_point <span style="color:#66d9ef">if</span> p[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">==</span> (index <span style="color:#f92672">+</span> <span style="color:#ae81ff">4</span>)][<span style="color:#ae81ff">0</span>]
+
+            <span style="color:#66d9ef">if</span> point01[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> point02[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+                image <span style="color:#f92672">=</span> draw_stick(
+                    image,
+                    point01[<span style="color:#ae81ff">2</span>],
+                    stick_radius01,
+                    point02[<span style="color:#ae81ff">2</span>],
+                    stick_radius02,
+                    color<span style="color:#f92672">=</span>color,
+                    bg_color<span style="color:#f92672">=</span>bg_color,
+                )
+            <span style="color:#66d9ef">if</span> point02[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> point03[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+                image <span style="color:#f92672">=</span> draw_stick(
+                    image,
+                    point02[<span style="color:#ae81ff">2</span>],
+                    stick_radius02,
+                    point03[<span style="color:#ae81ff">2</span>],
+                    stick_radius03,
+                    color<span style="color:#f92672">=</span>color,
+                    bg_color<span style="color:#f92672">=</span>bg_color,
+                )
+
+    <span style="color:#66d9ef">return</span> image
+
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">min_enclosing_face_circle</span>(landmark_point):
+    landmark_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>empty((<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span>), int)
+
+    index_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">10</span>]
+    <span style="color:#66d9ef">for</span> index <span style="color:#f92672">in</span> index_list:
+        np_landmark_point <span style="color:#f92672">=</span> [
+            np<span style="color:#f92672">.</span>array(
+                (landmark_point[index][<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">0</span>], landmark_point[index][<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">1</span>]))
+        ]
+        landmark_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>append(landmark_array, np_landmark_point, axis<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+
+    center, radius <span style="color:#f92672">=</span> cv<span style="color:#f92672">.</span>minEnclosingCircle(points<span style="color:#f92672">=</span>landmark_array)
+
+    <span style="color:#66d9ef">return</span> center, radius
+
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">draw_stick</span>(
+        image,
+        point01,
+        point01_radius,
+        point02,
+        point02_radius,
+        color<span style="color:#f92672">=</span>(<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">33</span>, <span style="color:#ae81ff">3</span>),
+        bg_color<span style="color:#f92672">=</span>(<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>),
+):
+    cv<span style="color:#f92672">.</span>circle(image, point01, point01_radius, color, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+    cv<span style="color:#f92672">.</span>circle(image, point02, point02_radius, color, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+
+    draw_list <span style="color:#f92672">=</span> []
+    <span style="color:#66d9ef">for</span> index <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">2</span>):
+        rad <span style="color:#f92672">=</span> math<span style="color:#f92672">.</span>atan2(point02[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">-</span> point01[<span style="color:#ae81ff">1</span>], point02[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">-</span> point01[<span style="color:#ae81ff">0</span>])
+
+        rad <span style="color:#f92672">=</span> rad <span style="color:#f92672">+</span> (math<span style="color:#f92672">.</span>pi <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>) <span style="color:#f92672">+</span> (math<span style="color:#f92672">.</span>pi <span style="color:#f92672">*</span> index)
+        point_x <span style="color:#f92672">=</span> int(point01_radius <span style="color:#f92672">*</span> math<span style="color:#f92672">.</span>cos(rad)) <span style="color:#f92672">+</span> point01[<span style="color:#ae81ff">0</span>]
+        point_y <span style="color:#f92672">=</span> int(point01_radius <span style="color:#f92672">*</span> math<span style="color:#f92672">.</span>sin(rad)) <span style="color:#f92672">+</span> point01[<span style="color:#ae81ff">1</span>]
+
+        draw_list<span style="color:#f92672">.</span>append([point_x, point_y])
+
+        point_x <span style="color:#f92672">=</span> int(point02_radius <span style="color:#f92672">*</span> math<span style="color:#f92672">.</span>cos(rad)) <span style="color:#f92672">+</span> point02[<span style="color:#ae81ff">0</span>]
+        point_y <span style="color:#f92672">=</span> int(point02_radius <span style="color:#f92672">*</span> math<span style="color:#f92672">.</span>sin(rad)) <span style="color:#f92672">+</span> point02[<span style="color:#ae81ff">1</span>]
+
+        draw_list<span style="color:#f92672">.</span>append([point_x, point_y])
+
+    points <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array((draw_list[<span style="color:#ae81ff">0</span>], draw_list[<span style="color:#ae81ff">1</span>], draw_list[<span style="color:#ae81ff">3</span>], draw_list[<span style="color:#ae81ff">2</span>]))
+    cv<span style="color:#f92672">.</span>fillConvexPoly(image, points<span style="color:#f92672">=</span>points, color<span style="color:#f92672">=</span>color)
+
+    <span style="color:#66d9ef">return</span> image
+
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">draw_landmarks</span>(
+    image,
+    landmarks,
+    <span style="color:#75715e"># upper_body_only,</span>
+    visibility_th<span style="color:#f92672">=</span><span style="color:#ae81ff">0.5</span>,
+):
+    image_width, image_height <span style="color:#f92672">=</span> image<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>], image<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>]
+
+    landmark_point <span style="color:#f92672">=</span> []
+
+    <span style="color:#66d9ef">for</span> index, landmark <span style="color:#f92672">in</span> enumerate(landmarks<span style="color:#f92672">.</span>landmark):
+        landmark_x <span style="color:#f92672">=</span> min(int(landmark<span style="color:#f92672">.</span>x <span style="color:#f92672">*</span> image_width), image_width <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
+        landmark_y <span style="color:#f92672">=</span> min(int(landmark<span style="color:#f92672">.</span>y <span style="color:#f92672">*</span> image_height), image_height <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
+        landmark_z <span style="color:#f92672">=</span> landmark<span style="color:#f92672">.</span>z
+        landmark_point<span style="color:#f92672">.</span>append([landmark<span style="color:#f92672">.</span>visibility, (landmark_x, landmark_y)])
+
+        <span style="color:#66d9ef">if</span> landmark<span style="color:#f92672">.</span>visibility <span style="color:#f92672">&lt;</span> visibility_th:
+            <span style="color:#66d9ef">continue</span>
+
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:  <span style="color:#75715e"># 鼻</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>:  <span style="color:#75715e"># 右目：目頭</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>:  <span style="color:#75715e"># 右目：瞳</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">3</span>:  <span style="color:#75715e"># 右目：目尻</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>:  <span style="color:#75715e"># 左目：目頭</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">5</span>:  <span style="color:#75715e"># 左目：瞳</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">6</span>:  <span style="color:#75715e"># 左目：目尻</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">7</span>:  <span style="color:#75715e"># 右耳</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">8</span>:  <span style="color:#75715e"># 左耳</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">9</span>:  <span style="color:#75715e"># 口：左端</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">10</span>:  <span style="color:#75715e"># 口：左端</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">11</span>:  <span style="color:#75715e"># 右肩</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">12</span>:  <span style="color:#75715e"># 左肩</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">13</span>:  <span style="color:#75715e"># 右肘</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">14</span>:  <span style="color:#75715e"># 左肘</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">15</span>:  <span style="color:#75715e"># 右手首</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">16</span>:  <span style="color:#75715e"># 左手首</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">17</span>:  <span style="color:#75715e"># 右手1(外側端)</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">18</span>:  <span style="color:#75715e"># 左手1(外側端)</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">19</span>:  <span style="color:#75715e"># 右手2(先端)</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">20</span>:  <span style="color:#75715e"># 左手2(先端)</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">21</span>:  <span style="color:#75715e"># 右手3(内側端)</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">22</span>:  <span style="color:#75715e"># 左手3(内側端)</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">23</span>:  <span style="color:#75715e"># 腰(右側)</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">24</span>:  <span style="color:#75715e"># 腰(左側)</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">25</span>:  <span style="color:#75715e"># 右ひざ</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">26</span>:  <span style="color:#75715e"># 左ひざ</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">27</span>:  <span style="color:#75715e"># 右足首</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">28</span>:  <span style="color:#75715e"># 左足首</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">29</span>:  <span style="color:#75715e"># 右かかと</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">30</span>:  <span style="color:#75715e"># 左かかと</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">31</span>:  <span style="color:#75715e"># 右つま先</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> index <span style="color:#f92672">==</span> <span style="color:#ae81ff">32</span>:  <span style="color:#75715e"># 左つま先</span>
+            cv<span style="color:#f92672">.</span>circle(image, (landmark_x, landmark_y), <span style="color:#ae81ff">5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+        <span style="color:#75715e"># if not upper_body_only:</span>
+        <span style="color:#66d9ef">if</span> True:
+            cv<span style="color:#f92672">.</span>putText(image, <span style="color:#e6db74">&#34;z:&#34;</span> <span style="color:#f92672">+</span> str(round(landmark_z, <span style="color:#ae81ff">3</span>)),
+                       (landmark_x <span style="color:#f92672">-</span> <span style="color:#ae81ff">10</span>, landmark_y <span style="color:#f92672">-</span> <span style="color:#ae81ff">10</span>),
+                       cv<span style="color:#f92672">.</span>FONT_HERSHEY_SIMPLEX, <span style="color:#ae81ff">0.5</span>, (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">1</span>,
+                       cv<span style="color:#f92672">.</span>LINE_AA)
+
+    <span style="color:#75715e"># 右目</span>
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">2</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">3</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">2</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">3</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+    <span style="color:#75715e"># 左目</span>
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">4</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">5</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">4</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">5</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">5</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">6</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">5</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">6</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+    <span style="color:#75715e"># 口</span>
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">9</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">10</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">9</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">10</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+    <span style="color:#75715e"># 肩</span>
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">11</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">12</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">11</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">12</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+    <span style="color:#75715e"># 右腕</span>
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">11</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">13</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">11</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">13</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">13</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">15</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">13</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">15</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+    <span style="color:#75715e"># 左腕</span>
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">12</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">14</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">12</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">14</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">14</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">16</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">14</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">16</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+    <span style="color:#75715e"># 右手</span>
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">15</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">17</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">15</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">17</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">17</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">19</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">17</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">19</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">19</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">21</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">19</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">21</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">21</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">15</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">21</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">15</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+    <span style="color:#75715e"># 左手</span>
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">16</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">18</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">16</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">18</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">18</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">20</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">18</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">20</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">20</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">22</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">20</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">22</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">22</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">16</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">22</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">16</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+    <span style="color:#75715e"># 胴体</span>
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">11</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">23</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">11</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">23</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">12</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">24</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">12</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">24</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">23</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">24</span>][
+            <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+        cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">23</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">24</span>][<span style="color:#ae81ff">1</span>],
+                (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+    <span style="color:#66d9ef">if</span> len(landmark_point) <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">25</span>:
+        <span style="color:#75715e"># 右足</span>
+        <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">23</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">25</span>][
+                <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+            cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">23</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">25</span>][<span style="color:#ae81ff">1</span>],
+                    (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">25</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">27</span>][
+                <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+            cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">25</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">27</span>][<span style="color:#ae81ff">1</span>],
+                    (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">27</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">29</span>][
+                <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+            cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">27</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">29</span>][<span style="color:#ae81ff">1</span>],
+                    (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">29</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">31</span>][
+                <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+            cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">29</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">31</span>][<span style="color:#ae81ff">1</span>],
+                    (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+
+        <span style="color:#75715e"># 左足</span>
+        <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">24</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">26</span>][
+                <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+            cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">24</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">26</span>][<span style="color:#ae81ff">1</span>],
+                    (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">26</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">28</span>][
+                <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+            cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">26</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">28</span>][<span style="color:#ae81ff">1</span>],
+                    (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">28</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">30</span>][
+                <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+            cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">28</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">30</span>][<span style="color:#ae81ff">1</span>],
+                    (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+        <span style="color:#66d9ef">if</span> landmark_point[<span style="color:#ae81ff">30</span>][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th <span style="color:#f92672">and</span> landmark_point[<span style="color:#ae81ff">32</span>][
+                <span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> visibility_th:
+            cv<span style="color:#f92672">.</span>line(image, landmark_point[<span style="color:#ae81ff">30</span>][<span style="color:#ae81ff">1</span>], landmark_point[<span style="color:#ae81ff">32</span>][<span style="color:#ae81ff">1</span>],
+                    (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">2</span>)
+    <span style="color:#66d9ef">return</span> image
+
+<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+    main()</code></pre></div>
+<p>日本小哥的项目地址：</p>
+
+<p>[<a href="https://github.com/Kazuhito00/Tokyo2020-Pictogram-using-MediaPipe](">https://github.com/Kazuhito00/Tokyo2020-Pictogram-using-MediaPipe](</a>)</p>
+
+    </div>
+    <div class="article-footer">
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://weibo.com/u/3486501484" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://weibo.com/u/3486501484" target="_blank"><span class="text-dark">J4Muke</span><small class="ml-1x">产品经理</small></a></h3>
+        <div>Being Productive. Being Useful.</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+    <div id="vcomments"></div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="/2021/08/product-and-code/" title="产品设计思想和面向对象编程"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;下一篇</span></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="文章目录" role="button">
+                    <span>[&nbsp;</span><span>文章目录</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone,wechat"></div>
+        </div>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://weibo.com/u/3486501484" target="_blank" title="weibo" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-weibo"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2021  -
+    2021
+    <div class="publishby">
+        Being Productive. Being Useful.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(未命名)',
+            },
+            ROOT_URL: '\/',
+            CONTENT_URL: '\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine"></script>
+<script type="text/javascript">
+    var GUEST = ['nick', 'mail', 'link'];
+    var meta = 'nick,mail';
+    meta = meta.split(',').filter(function (item) {
+        return GUEST.indexOf(item) > -1;
+    });
+    new Valine({
+        el: '#vcomments',
+        verify: null ,
+        notify: null ,
+        appId: '2cGSWev1Oh89OFSgJVSBn5PH-gzGzoHsz',
+        appKey: 'tJ7wkRjmOgJJIjYh6dEqXoJ0',
+        placeholder: '你想对我说点什么呢？',
+        avatar: 'mm',
+        meta: meta,
+        pageSize: '10' || 10,
+        visitor: false 
+});
+</script>
+
+  </body>
+</html>
