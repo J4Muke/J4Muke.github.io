@@ -2,8 +2,8 @@
 title: "再见了，所有的EVANGELION"
 date: 2021-12-28T15:49:06+08:00
 draft: false
-categories:["一些想法"]
-tags:["ACG","EVA","二次元"]
+categories: ["一些想法"]
+tags: ["ACG","EVA","二次元"]
 ---
 
 ![image-20211229145037046](https://tva1.sinaimg.cn/large/008i3skNgy1gxupfqtgimj30rq0o040k.jpg)
